@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPastWeightPage"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What was your weight in the past?"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/weightID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (in lbs)"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What time where you this weight?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tvWeightDate"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me to select a time"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/submitWeightButton"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/header_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"/>
+    <Button
+        android:id="@+id/cancelWeightButton"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/header_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel"/>
+
+
+
+</LinearLayout>
